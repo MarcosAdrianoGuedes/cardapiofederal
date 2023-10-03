@@ -177,3 +177,20 @@
     font-size: 17px;
   }
   
+  #instagram-button {
+    background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    margin: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s;
+}
+
+#instagram-button:hover {
+    transform: scale(1.05);
+}

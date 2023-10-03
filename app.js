@@ -36,3 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+function openInstagramProfile() {
+    window.location.href = "https://www.instagram.com/federalbsb/";
+}
