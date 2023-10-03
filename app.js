@@ -36,18 +36,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-window.addEventListener('scroll', toggleScrollToTopButton);
-
-function toggleScrollToTopButton() {
-    const scrollButton = document.getElementById('scrollToTopButton');
-    if (window.pageYOffset > window.innerHeight) {
-        scrollButton.style.display = 'block';
-    } else {
-        scrollButton.style.display = 'none';
-    }
-}
-
-function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
