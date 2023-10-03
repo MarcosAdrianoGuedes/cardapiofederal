@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio FEDERAL</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/9ce9024a4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="App">
+        <video class="background-video" autoplay muted loop>
+            <source src="./assets/4845DFB3135D954F4E80DF30A55D05A8_video_dashinit.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="bar-background">
+            <h1 class="cardapio-text"></h1>
+            <img class="logo" src="./assets/Sem_título-removebg-preview.png" alt="Logo" />
+            <h1 class="title"></h1>
+        </div>
+        <div class="buttons-container">
+            <button class="section-button" onclick="scrollToSection('cervejas')"><i class="fas fa-beer"></i> CERVEJAS</button>
+            <button class="section-button" onclick="scrollToSection('petiscos')"><i class="fas fa-utensils"></i> PETISCOS</button>
+            <button class="section-button" onclick="scrollToSection('doses')"><i class="fas fa-cocktail"></i> DOSES</button>
+            <button class="section-button" onclick="scrollToSection('nargas')"><i class="fas fa-cloud"></i> NARGUILES</button>
+        </div>
+        <div class="menu-container" onclick="toggleZoom(this)">
+            <div class="container" id="cervejas">
+              <h2 class="section-title">CERVEJAS</h2>
+              <div class="subsections-container">
+                <div class="subsection">
+                  <ul>
+                    <li>
+                      <span class="item-name">HEINEKEN</span>
+                      <span class="item-price">R$25,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">ORIGINAL</span>
+                      <span class="item-price">R$25,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">BRAHMA</span>
+                      <span class="item-price">R$25,00</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="subsection">
+                  <ul>
+                    <li>
+                      <span class="item-name">SPATEN</span>
+                      <span class="item-price">R$10,00</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="container" id="petiscos">
+              <h2 class="section-title">PETISCOS</h2>
+              <ul>
+                <li>
+                  <span class="item-name">POÇÃO DE CAMARÃO</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">BATATA FRITA</span>
+                  <span class="item-price">R$45,00</span>
+                </li>
+                <li>
+                  <span class="item-name">BATATA FRITA + CALABRESA</span>
+                  <span class="item-price">R$60,00</span>
+                </li>
+              </ul>
+            </div>
+            <div class="container" id="doses">
+              <h2 class="section-title">DOSES</h2>
+              <ul>
+                <li>
+                  <span class="item-name">Pomada efeito seco</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Pomada efeito brilho</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Pomada efeito teia</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Pomada efeito black</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Pomada efeito neutro</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Balm para barba</span>
+                  <span class="item-price">R$35,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Shampoo anti caspa</span>
+                  <span class="item-price">R$45,00</span>
+                </li>
+                <li>
+                  <span class="item-name">pente</span>
+                  <span class="item-price">R$3,00</span>
+                </li>
+              </ul>
+            </div>
+            <div class="container" id="nargas">
+                <h2 class="section-title">NARGUILES</h2>
+                <div class="subsections-container">
+                  <div class="subsection">
+                    <ul>
+                      <li>
+                        <span class="item-name">HEINEKEN</span>
+                        <span class="item-price">R$25,00</span>
+                      </li>
+                      <li>
+                        <span class="item-name">ORIGINAL</span>
+                        <span class="item-price">R$25,00</span>
+                      </li>
+                      <li>
+                        <span class="item-name">BRAHMA</span>
+                        <span class="item-price">R$25,00</span>
+                      </li>
+                    </ul>
+                  </div>
+          </div>
+            <!-- Outras seções de combos e produtos aqui -->
+        </div>
+        <button class="scroll-to-top">Voltar ao topo</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
