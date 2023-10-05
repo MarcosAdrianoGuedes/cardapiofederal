@@ -56,9 +56,6 @@
     letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
   }
   
-  
-
-  
   .buttons-container {
     margin-top: 14px; /* Aumenta o espaçamento superior para compensar a faixa de separação */
     display: flex;
@@ -148,13 +145,13 @@
   .item-name {
     text-align: left;
     font-family: 'Agdasima', sans-serif;
-    font-size: 19px;
+    font-size: 23px;
   }
   
   .item-price {
     text-align: right;
     font-family: 'Agdasima', sans-serif;
-    font-size: 19px;
+    font-size: 23px;
   }
   
   .scroll-to-top {
