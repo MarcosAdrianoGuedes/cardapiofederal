@@ -191,3 +191,13 @@
 #instagram-button:hover {
     transform: scale(1.05);
 }
+
+.logo-container {
+  text-align: right; /* Align the logo to the right */
+  margin-top: 20px; /* Adjust the margin to position the logo */
+}
+
+.small-logo {
+  max-width: 50px; /* Adjust the max-width of the logo */
+  height: auto;
+}
