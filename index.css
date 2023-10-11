@@ -16,7 +16,7 @@
 }
 
 .logo {
-    max-width: 100%; /* Ensure the logo doesn't exceed its original width */
+    max-width: 120%; /* Ensure the logo doesn't exceed its original width */
     height: auto; /* Maintain the logo's aspect ratio */
     padding: 10px; /* Add padding around the logo */
 }
