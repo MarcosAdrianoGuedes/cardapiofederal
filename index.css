@@ -194,10 +194,59 @@
 
 .logo-container {
   text-align: right; /* Align the logo to the right */
-  margin-top: 20px; /* Adjust the margin to position the logo */
+  margin-top: 10px; /* Adjust the margin to position the logo */
 }
 
 .small-logo {
   max-width: 50px; /* Adjust the max-width of the logo */
   height: auto;
+}
+
+/* Add a CSS class for the splash screen */
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Change to black background */
+  z-index: 9999; /* Ensure the splash screen appears on top */
+  opacity: 1; /* Initial opacity */
+  transition: opacity 0.5s ease-in-out; /* Add a transition for opacity change */
+}
+
+.splash-screen img {
+  max-width: 80%; /* Adjust the max-width as needed for your logo */
+  height: auto;
+}
+
+.splash-text {
+  color: white; /* Set the text color */
+  font-size: 18px; /* Adjust the font size */
+  margin-top: 10px; /* Adjust the margin to position the text below the logo */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .splash-screen img {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+
+  .splash-text {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .splash-screen img {
+    max-width: 100%; /* Adjust max-width for even smaller screens */
+  }
+
+  .splash-text {
+    font-size: 14px; /* Adjust font size for even smaller screens */
+  }
 }

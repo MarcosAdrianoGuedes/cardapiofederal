@@ -39,3 +39,20 @@ document.addEventListener('DOMContentLoaded', function () {
 function openInstagramProfile() {
     window.location.href = "https://www.instagram.com/federalbsb/";
 }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Show the splash screen
+    const splashScreen = document.getElementById('splash-screen');
+    splashScreen.style.display = 'flex';
+  
+    // Hide the splash screen with a fade-out effect after 0.5 seconds
+    setTimeout(() => {
+      splashScreen.style.opacity = '0'; // Set opacity to 0 for the fade-out effect
+      setTimeout(() => {
+        splashScreen.style.display = 'none'; // Hide the splash screen after the fade-out effect
+      }, 600);
+    }, 600); // Wait for 0.5 seconds before starting the fade-out
+  
+    // Rest of your existing event listeners and functionality
+  });

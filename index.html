@@ -2,209 +2,218 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
-    rel="stylesheet">
-  <title>Cardápio FEDERAL</title>
-  <link rel="stylesheet" href="index.css">
-  <script src="https://kit.fontawesome.com/9ce9024a4e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Cardápio FEDERAL</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/9ce9024a4e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="App">
-    <img class="background-image" src="./assets/WhatsApp Image 2023-10-03 at 14.25.44.jpeg" alt="Background Image">
-    <div class="bar-background">
-      <h1 class="cardapio-text"></h1>
+    <div id="splash-screen" class="splash-screen">
+        <img src="./assets/Sem_título-removebg-preview__1_-removebg-preview.png" alt="Logo">
+    </div>
+    <div class="App">
+        <img class="background-image" src="./assets/WhatsApp Image 2023-10-03 at 14.25.44.jpeg" alt="Background Image">
+        <div class="bar-background">
+            <h1 class="cardapio-text"></h1>
 
-      <h1 class="title">dwadwa</h1>
-      <img class="logo" src="./assets/Sem_título-removebg-preview__1_-removebg-preview.png" alt="Logo" />
-    </div>
-    <div class="buttons-container">
-      <button class="section-button" onclick="scrollToSection('cervejas')"><i class="fas fa-beer"></i> CERVEJAS</button>
-      <button class="section-button" onclick="scrollToSection('petiscos')"><i class="fas fa-utensils"></i>
-        PETISCOS</button>
-      <button class="section-button" onclick="scrollToSection('doses')"><i class="fas fa-cocktail"></i> DRINKS</button>
-      <button class="section-button" onclick="scrollToSection('nargas')"><i class="fas fa-wind"></i> NARGUILES</button>
-      <button class="section-button" onclick="scrollToSection('promos')"><i class="fa fa-money"></i> PROMOÇÕES</button>
-      <button id="instagram-button" class="section-button" onclick="openInstagramProfile()"><i
-          class="fab fa-instagram"></i>Instagram</button>
-    </div>
-    <div class="menu-container" onclick="toggleZoom(this)">
-      <div class="container" id="cervejas">
-          <h2 class="section-title">CERVEJAS</h2>
-          <h3 class="longnecks-title">Longnecks</h3>
-          <div class="subsections-container">
-              <div class="subsection">
-                  <ul>
-                      <li>
-                          <span class="item-name">Heineken</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                      <li>
-                          <span class="item-name">Original</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                      <li>
-                          <span class="item-name">Brahma</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                  </ul>
-              </div>
-              <div class="subsection">
-                  <ul>
-                      <h3 class="longnecks-title">Latas</h3>
-                      <li>
-                          <span class="item-name">Heineken</span>
-                          <span class="item-price">R$10,00</span>
-                      </li>
-                      <li>
-                          <span class="item-name">Spaten</span>
-                          <span class="item-price">R$10,00</span>
-                      </li>
-                      <li>
-                          <span class="item-name">Brahma</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                  </ul>
-                  <div class="logo-container">
-                    <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
-                </div>
-              </div>
-          </div>
-      </div>
-      <div class="container" id="petiscos">
-          <h2 class="section-title">PETISCOS</h2>
-          <ul>
-              <li>
-                  <span class="item-name">Poção de camarão</span>
-                  <span class="item-price">R$30,00</span>
-              </li>
-              <li>
-                  <span class="item-name">Batata frita</span>
-                  <span class="item-price">R$45,00</span>
-              </li>
-              <li>
-                  <span class="item-name">batata frita + calabresa</span>
-                  <span class="item-price">R$60,00</span>
-              </li>
-          </ul>
-          <div class="logo-container">
-            <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
+            <h1 class="title">dwadwa</h1>
+            <img class="logo" src="./assets/Sem_título-removebg-preview__1_-removebg-preview.png" alt="Logo" />
+            <span>dawdawdaw</span>
         </div>
-      </div>
-      <div class="container" id="doses">
-          <h2 class="section-title">DRINKS</h2>
-          <ul>
-              <li>
-                  <span class="item-name">Drink de 51</span>
-                  <span class="item-price">R$30,00</span>
-              </li>
-              <li>
-                  <span class="item-name">Drink de babaninha</span>
-                  <span class="item-price">R$30,00</span>
-              </li>
-              <li>
-                  <span class="item-name">Drink de Vodka</span>
-                  <span class="item-price">R$30,00</span>
-              </li>
-              <li>
-                  <span class="item-name">Drink de velho barreiro</span>
-                  <span class="item-price">R$30,00</span>
-              </li>
-              <li>
-                  <span class="item-name">Drink de red label</span>
-                  <span class="item-price">R$30,00</span>
-              </li>
-              <li>
-                  <span class="item-name">Drink de paratudo</span>
-                  <span class="item-price">R$35,00</span>
-              </li>
-              <li>
-                  <span class="item-name">Drink de Tanquerai</span>
-                  <span class="item-price">R$45,00</span>
-              </li>
-              <li>
-                  <span class="item-name">Drink de Amarula</span>
-                  <span class="item-price">R$3,00</span>
-              </li>
-          </ul>
-          <div class="logo-container">
-            <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
+        <div class="buttons-container">
+            <button class="section-button" onclick="scrollToSection('cervejas')"><i class="fas fa-beer"></i>
+                CERVEJAS</button>
+            <button class="section-button" onclick="scrollToSection('petiscos')"><i class="fas fa-utensils"></i>
+                PETISCOS</button>
+            <button class="section-button" onclick="scrollToSection('doses')"><i class="fas fa-cocktail"></i>
+                DRINKS</button>
+            <button class="section-button" onclick="scrollToSection('nargas')"><i class="fas fa-wind"></i>
+                NARGUILES</button>
+            <button class="section-button" onclick="scrollToSection('promos')"><i class="fa fa-money"></i>
+                PROMOÇÕES</button>
+            <button id="instagram-button" class="section-button" onclick="openInstagramProfile()"><i
+                    class="fab fa-instagram"></i>Instagram</button>
         </div>
-      </div>
-      <div class="container" id="nargas">
-          <h2 class="section-title">NARGUILES</h2>
-          <div class="subsections-container">
-              <div class="subsection">
-                  <ul>
-                      <h3 class="longnecks-title">Zomo</h3>
-                      <li>
-                          <span class="item-name">Manga</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                      <li>
-                          <span class="item-name">Limão</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                      <li>
-                          <span class="item-name">Menta</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                  </ul>
-                  <ul>
-                      <h3 class="longnecks-title">Zaya</h3>
-                      <li>
-                          <span class="item-name">Manga</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                      <li>
-                          <span class="item-name">Limão</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                      <li>
-                          <span class="item-name">Menta</span>
-                          <span class="item-price">R$25,00</span>
-                      </li>
-                  </ul>
-                  <div class="logo-container">
-                    <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
+        <div class="menu-container" onclick="toggleZoom(this)">
+            <div class="container" id="cervejas">
+                <h2 class="section-title">CERVEJAS</h2>
+                <h3 class="longnecks-title">Longnecks</h3>
+                <div class="subsections-container">
+                    <div class="subsection">
+                        <ul>
+                            <li>
+                                <span class="item-name">Heineken</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                            <li>
+                                <span class="item-name">Original</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                            <li>
+                                <span class="item-name">Brahma</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subsection">
+                        <ul>
+                            <h3 class="longnecks-title">Latas</h3>
+                            <li>
+                                <span class="item-name">Heineken</span>
+                                <span class="item-price">R$10,00</span>
+                            </li>
+                            <li>
+                                <span class="item-name">Spaten</span>
+                                <span class="item-price">R$10,00</span>
+                            </li>
+                            <li>
+                                <span class="item-name">Brahma</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                        </ul>
+                        <div class="logo-container">
+                            <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
+                        </div>
+                    </div>
                 </div>
-              </div>
-          </div>
-      </div>
-      <div class="container" id="promos">
-        <h2 class="section-title">PROMOÇÕES DO DIA</h2>
-        <ul>
-            <h3 class="longnecks-title">Promoção válida apenas para seguidores do nosso Instagram (09/10/2023)</h3>
-            <li>
-                <span class="item-name">Dose dupla de cozumel</span>
-                <span class="item-price">R$25,00</span>
-            </li>
-            <li>
-                <span class="item-name">Dose dupla rosh zomo</span>
-                <span class="item-price">R$40,00</span>
-            </li>
-            <li>
-                <span class="item-name">Dose dupla caipirinha</span>
-                <span class="item-price">R$15,00</span>
-            </li>
-            <li>
-                <span class="item-name">Dose de Bananinha para elas</span>
-                <span class="item-price">FREE</span>
-            </li>
-            <div class="logo-container">
-                <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
             </div>
-    </div>
-      <button class="scroll-to-top">Voltar ao topo</button>
-  </div>
-  <script src="app.js"></script>
+            <div class="container" id="petiscos">
+                <h2 class="section-title">PETISCOS</h2>
+                <ul>
+                    <li>
+                        <span class="item-name">Poção de camarão</span>
+                        <span class="item-price">R$30,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Batata frita</span>
+                        <span class="item-price">R$45,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">batata frita + calabresa</span>
+                        <span class="item-price">R$60,00</span>
+                    </li>
+                </ul>
+                <div class="logo-container">
+                    <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
+                </div>
+            </div>
+            <div class="container" id="doses">
+                <h2 class="section-title">DRINKS</h2>
+                <ul>
+                    <li>
+                        <span class="item-name">Drink de 51</span>
+                        <span class="item-price">R$30,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Drink de babaninha</span>
+                        <span class="item-price">R$30,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Drink de Vodka</span>
+                        <span class="item-price">R$30,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Drink de velho barreiro</span>
+                        <span class="item-price">R$30,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Drink de red label</span>
+                        <span class="item-price">R$30,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Drink de paratudo</span>
+                        <span class="item-price">R$35,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Drink de Tanquerai</span>
+                        <span class="item-price">R$45,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Drink de Amarula</span>
+                        <span class="item-price">R$3,00</span>
+                    </li>
+                </ul>
+                <div class="logo-container">
+                    <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
+                </div>
+            </div>
+            <div class="container" id="nargas">
+                <h2 class="section-title">NARGUILES</h2>
+                <div class="subsections-container">
+                    <div class="subsection">
+                        <ul>
+                            <h3 class="longnecks-title">Zomo</h3>
+                            <li>
+                                <span class="item-name">Manga</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                            <li>
+                                <span class="item-name">Limão</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                            <li>
+                                <span class="item-name">Menta</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <h3 class="longnecks-title">Zaya</h3>
+                            <li>
+                                <span class="item-name">Manga</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                            <li>
+                                <span class="item-name">Limão</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                            <li>
+                                <span class="item-name">Menta</span>
+                                <span class="item-price">R$25,00</span>
+                            </li>
+                        </ul>
+                        <div class="logo-container">
+                            <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="promos">
+                <h2 class="section-title">PROMOÇÕES DO DIA</h2>
+                <ul>
+                    <h3 class="longnecks-title">Promoção válida apenas para seguidores do nosso Instagram (09/10/2023)
+                    </h3>
+                    <li>
+                        <span class="item-name">Dose dupla de cozumel</span>
+                        <span class="item-price">R$25,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Dose dupla rosh zomo</span>
+                        <span class="item-price">R$40,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Dose dupla caipirinha</span>
+                        <span class="item-price">R$15,00</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Dose de Bananinha para elas</span>
+                        <span class="item-price">FREE</span>
+                    </li>
+                    <div class="logo-container">
+                        <img src="./assets/logo pequena.png" alt="Logo" class="small-logo">
+                    </div>
+            </div>
+            <button class="scroll-to-top">Voltar ao topo</button>
+        </div>
+        <script src="app.js"></script>
 </body>
 
 </html>
